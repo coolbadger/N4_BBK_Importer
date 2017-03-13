@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="N4WebApiSmall">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../JavaLibs/N4WebApiSmall" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../JavaLibs/N4WebApiSmall" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Base/Global.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Base/N4Operator.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Base/OracleConn.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/DataProcess/BaseDataProcess.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/DataProcess/SNXProcess.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/DataProcess/SqlDataFunction.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Entity/Result_BBK.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Entity/Result_Vessel.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Entity/Result_VesselVisit.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Entity/SNX_BBK_Unit.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Entity/SNX_Vessel.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Entity/SNX_VesselVisit.groovy" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/ImporterUI/MainFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/ImporterUI/MainFrameInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Logger/MyLogger.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Main/MyThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/LWT/Main/start.groovy" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
