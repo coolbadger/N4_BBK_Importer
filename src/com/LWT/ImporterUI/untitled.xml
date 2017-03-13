@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--codebase 属性指出搜索应用程序资源的顶级URL,下面的icon/jar元素都是以这个URL为基本.-->
+<jnlp codebase="http://127.0.0.1:8081/">
+<information>
+<!-- 在"开始"-"运行"菜单中输入"javaws"或"javaws -viewer"启动Web Start,会看到客户端已经安装的webstart应用程序-->
+<!--title ：应用程序标题 vendor：供应商
+title/vendor 元素必须，会显示在用"javaws -viewer"命令
+打开的应用程序缓存查看器（Java Application Cache Viewer）中-->
+<title>BBk Importer</title>
+<vendor>Lively Corporation</vendor>
+<description>HelloWorld Test Example for WebStart.</description>
+<!--homepage ：存放有关应用程序的相关文档的URL，如help文件等，仅仅是description作用-->
+<!-- <homepage href="http://127.0.0.1:8081/webstart/index.html"/> -->
+<!--icon 指定图标会显示在应用程序缓存查看器中，
+在查看器中新建webstart快捷方式到桌面时也会显示为快捷方式图标，
+只支持GIF/JPEG格式，其它格式无效-->
+<!-- <icon href="./images/logo.jpg"/> -->
+<!--splash 在sun的文档中提到会出现在webstart启动时的闪屏中，不过可能由于速度问题，我没有观察到-->
+<!-- <icon kind="splash" href="./images/logo.jpg"/> -->
+<!-- 允许离线启动，可以使用javaws -offline命令-->
+<offline-allowed/>
+</information>
+<resources>
+<!-- 指定客户端需要安装的j2se版本，下面指定为1.5+，
+如果版本是1.4，在链接此jnlp文件时会提示更新j2se版本-->
+<j2se version="1.5+"/>
+<!-- 指定要下载到本地的jar文件(注意，所有的文件都需要打包才能够下载)，
+可以包含一些资源文件，如icons/configuration files，可以使用getResource方法取得-->
+<jar href="n4bbk.jar"/>
+</resources>
+<!--application-desc 必须，指定webstart启动时执行jar文件中的哪个类-->
+<application-desc main-class="com.LWT.ImporterUI.MainFrame"/>
+</jnlp>xml
